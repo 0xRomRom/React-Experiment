@@ -1,0 +1,22 @@
+.innerHero {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.heroTitle {
+  font-family: "Open Sans";
+  color: rgb(187, 178, 178);
+  margin: 0;
+}
+
+.heroSideText {
+  color: rgb(197, 184, 184);
+  margin: 0;
+}

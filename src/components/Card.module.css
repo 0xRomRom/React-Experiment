@@ -1,0 +1,9 @@
+.card {
+  position: relative;
+  max-width: 97.5%;
+  min-height: 5rem;
+  left: 1.25%;
+  margin-top: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: rgb(70, 67, 67);
+}
