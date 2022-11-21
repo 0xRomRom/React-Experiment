@@ -1,0 +1,27 @@
+.innerButtonBox {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 10rem;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+
+.ctaBtn {
+  color: white;
+  background-color: rgb(195, 22, 195);
+  outline: 0;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.ctaBtn:hover {
+  background-color: rgb(253, 6, 253);
+}

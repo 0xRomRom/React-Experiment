@@ -1,12 +1,12 @@
 import Card from "./Card";
 import classes from "./ResultBox.module.css";
 
-const ResultBox = (props) => {
+const ResultBox2 = (props) => {
   return (
     <Card>
       <div className={classes.resultModals}>
         <div className={classes.resultModal}>
-          <h1 className={classes.numberOutput}>{props.result}</h1>
+          <h1 className={classes.numberOutput}>{props.flip}</h1>
         </div>
         <div
           className={classes.resultModal}
@@ -22,4 +22,4 @@ const ResultBox = (props) => {
   );
 };
 
-export default ResultBox;
+export default ResultBox2;
