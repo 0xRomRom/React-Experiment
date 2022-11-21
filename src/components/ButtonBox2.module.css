@@ -25,3 +25,9 @@
 .ctaBtn:hover {
   background-color: rgb(253, 6, 253);
 }
+
+@media only screen and (max-width: 1200px) {
+  .innerButtonBox {
+    gap: 20%;
+  }
+}

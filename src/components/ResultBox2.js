@@ -16,14 +16,11 @@ const ResultBox2 = (props) => {
             Times Tossed: {props.tossed}
           </span>
         </div>
-        <div
-          className={classes.resultModal}
-          style={{ backgroundColor: props.color }}
-        >
-          {props.color}
+        <div className={classes.resultModal} style={{ color: "white" }}>
+          {props.letter}
         </div>
         <div className={classes.resultModal}>
-          <h1 className={classes.randomWord}>{props.word}</h1>
+          <h1 className={classes.randomWord}>{props.country}</h1>
         </div>
       </div>
     </Card>

@@ -12,6 +12,8 @@ const App = () => {
   const [coinStatus, setCoinStatus] = useState("");
   const [coinImg, setCoinImg] = useState("");
   const [coinTossed, setCoinTossed] = useState(0);
+  const [randomLetter, setRandomLetter] = useState("");
+  const [randomCountry, setRandomCountry] = useState("");
 
   return (
     <Fragment>
@@ -26,8 +28,16 @@ const App = () => {
         onCoin={setCoinStatus}
         image={setCoinImg}
         tossed={setCoinTossed}
+        letter={setRandomLetter}
+        country={setRandomCountry}
       />
-      <ResultBox2 flip={coinStatus} images={coinImg} tossed={coinTossed} />
+      <ResultBox2
+        flip={coinStatus}
+        images={coinImg}
+        tossed={coinTossed}
+        letter={randomLetter}
+        country={randomCountry}
+      />
     </Fragment>
   );
 };

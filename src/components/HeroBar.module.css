@@ -2,7 +2,7 @@
   position: relative;
   width: 50%;
   left: 25%;
-  height: 5rem;
+  min-height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,9 +14,16 @@
   font-family: "Open Sans";
   color: rgb(187, 178, 178);
   margin: 0;
+  font-size: 2.75vw;
 }
 
 .heroSideText {
   color: rgb(197, 184, 184);
   margin: 0;
+  font-size: 1.25vw;
+  position: relative;
+  /* top: -1rem; */
+}
+
+@media only screen and (max-width: 850px) {
 }
