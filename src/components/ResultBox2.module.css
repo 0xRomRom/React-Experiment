@@ -26,10 +26,26 @@
 .numberOutput {
   color: white;
   font-family: "Open Sans";
+  display: inline-block;
 }
 
 .randomWord {
   color: white;
   font-family: "Open Sans";
   font-size: 3vw;
+}
+
+.images {
+  position: absolute;
+  border-radius: 5rem;
+  width: 5rem;
+  top: 1rem;
+}
+
+.tossed {
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  position: relative;
+  top: -4rem;
 }

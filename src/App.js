@@ -10,6 +10,8 @@ const App = () => {
   const [randomColor, setRandomColor] = useState("");
   const [randomWord, setRandomWord] = useState("");
   const [coinStatus, setCoinStatus] = useState("");
+  const [coinImg, setCoinImg] = useState("");
+  const [coinTossed, setCoinTossed] = useState(0);
 
   return (
     <Fragment>
@@ -20,8 +22,12 @@ const App = () => {
         onWord={setRandomWord}
       />
       <ResultBox result={randomInt} color={randomColor} word={randomWord} />
-      <ButtonBox2 onCoin={setCoinStatus} />
-      <ResultBox2 flip={coinStatus} />
+      <ButtonBox2
+        onCoin={setCoinStatus}
+        image={setCoinImg}
+        tossed={setCoinTossed}
+      />
+      <ResultBox2 flip={coinStatus} images={coinImg} tossed={coinTossed} />
     </Fragment>
   );
 };
